@@ -13,7 +13,6 @@ package net.techcable.jstruct;
  *     <li>Identity Comparison (o1 == o2)</li>
  * </ul>
  * <p/>
- * The current implementation of JStruct makes everything pass by value, so the
  * If your JVM does not support escape analysis {@code JStruct} should <b>not</b> be used.
  * Otherwise memory usage will skyrocket, as every struct will be re-allocated on the heap for every method call.
  */
